@@ -1,0 +1,8 @@
+[Unit]
+Description="Time freenom-script-renew all domains repetitively"
+
+[Timer]
+OnCalendar=weekly
+
+[Install]
+WantedBy=timers.target
